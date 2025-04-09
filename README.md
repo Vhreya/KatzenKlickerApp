@@ -1,29 +1,27 @@
-# KatzenKlickerApp
+## Katzen-Klicker-Training-App
 
-This template should help get you started developing with Vue 3 in Vite.
+### Ziel der App
+Diese App hilft Katzenbesitzern, ihre Katze durch Klickertraining zu trainieren. Die Anwendung bietet: - Einen virtuellen Klicker - Schrittweise Anleitungen für Übungen - Fortschrittsverfolgung (lokal im Browser gespeichert)
 
-## Recommended IDE Setup
+### Technologie-Stack
+ **Frontend:** Vue 3 mit Composition API, Vuex für das State-Management
+ **Styling:** TailwindCSS vielleicht
+ **Speicherung:** LocalStorage oder IndexedDB
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Features
+1. **Virtueller Klicker**
 
-## Customize configuration
+    Ein festgelegtes Klickgeräusch
+    Visuelles Feedback (z. B. Animation beim Klicken)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+2. **Trainingsanleitungen**
 
-## Project Setup
+    Schrittweise Übungen für verschiedene Tricks
+    Fortschrittsanzeige pro Trainingseinheit
 
-```sh
-npm install
-```
+3. **Fortschrittsverfolgung**
 
-### Compile and Hot-Reload for Development
+    Speicherung des Trainingsverlaufs im LocalStorage oder IndexedDB
+    Möglichkeit, Trainingsdaten zu exportieren oder zurückzusetzen
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### Vuex Store für das State Management
