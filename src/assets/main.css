@@ -1,38 +1,50 @@
-@import './base.css';
+:root {
+  --background: #2a2a2a;
+  --text: rgba(235, 235, 235, 1);
+  --darkGradient: linear-gradient(rgba(44, 44, 44, 0) 0%, rgba(44, 44, 44, 0) 70%, rgba(44, 44, 44, 0.1) 75%, rgba(44, 44, 44, 0.85) 95%, rgba(42, 42, 42, 1) 100%);
+  --pinkGradient: linear-gradient(120deg,rgba(174, 174, 174, 1) 0%, rgba(255, 169, 157, 1) 61%, rgba(214, 15, 69, 1) 100%)
+}
+
+body {
+  background: #181818;
+}
+
+h1	{
+  text-align: center;
+  font-family: "Kaushan Script";
+  font-size: 5em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.158);
+  color: var(--text);
+}
+
+p {
+  font-family: "Kavivanar";
+}
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
 }
 
-main {
-  background-color: rgba(42, 42, 42, 100);
+.background {
+  background: url('./images/backgroundNoise.png'), rgba(42, 42, 42, 100);
   max-width: 400px;
   margin: auto;
   height: 100vh;
 }
 
-.gradient {
-  background: linear-gradient(120deg,rgba(174, 174, 174, 1) 0%, rgba(255, 169, 157, 1) 61%, rgba(214, 15, 69, 1) 100%); 
-}
-
-header {
+.header {
   max-width: 400px;
   height: 230px;
   margin: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .manyKittenPng {
-  background: top / cover no-repeat url('./images/vieleKatzen.png'), 
-    linear-gradient(120deg,rgba(174, 174, 174, 1) 0%, rgba(255, 169, 157, 1) 61%, rgba(214, 15, 69, 1) 100%);
-}
-
-.darkGradient {
-  height: 140px;
-  background: linear-gradient(rgba(44, 44, 44, 0) 0%, rgba(44, 44, 44, 50) 80%, rgba(42, 42, 42, 100) 100%);
+  background: var(--darkGradient),
+  top / cover no-repeat url('./images/vieleKatzen.png'), 
+    var(--pinkGradient);
 }

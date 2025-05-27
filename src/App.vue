@@ -1,14 +1,9 @@
 <template>
-  <header class="manyKittenPng">
-    <h1>Hallo</h1>
-    <div class="darkGradient"></div>
-  </header>
-
-  <main>
-  </main>
+  <LoginScreen></LoginScreen>
 </template>
 
 <script setup>
+import LoginScreen from './components/LoginScreen.vue';
 
 
 
