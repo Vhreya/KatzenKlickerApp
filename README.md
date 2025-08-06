@@ -29,7 +29,7 @@ Diese App hilft Katzenbesitzern, ihre Katzen spielerisch und effektiv durch Klic
     Speicherung des Trainingsverlaufs im LocalStorage oder IndexedDB
     Möglichkeit, Trainingsdaten zu exportieren oder zurückzusetzen
 
-4. ### Aktueller Projektstatus
+### Aktueller Projektstatus
 
 *   **✅ Konzept & User-Flows:** Definiert
 *   **✅ UI/UX-Design (Figma):** Abgeschlossen
