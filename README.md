@@ -1,7 +1,7 @@
 ## Katzen-Klicker-Training-App
 
 ### Design
-https://github.com/Vhreya/KatzenKlickerApp/blob/master/KatzenKlickerDesign.png
+![Design der App](https://github.com/Vhreya/KatzenKlickerApp/blob/master/KatzenKlickerDesign.png?raw=true)
 
 ### Ziel der App
 Diese App hilft Katzenbesitzern, ihre Katze durch Klickertraining zu trainieren. Die Anwendung bietet: - Einen virtuellen Klicker - Schrittweise Anleitungen für Übungen - Fortschrittsverfolgung (lokal im Browser gespeichert)
