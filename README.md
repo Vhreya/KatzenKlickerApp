@@ -6,10 +6,12 @@
 ### Projektziel & Nutzen
 Diese App hilft Katzenbesitzern, ihre Katzen spielerisch und effektiv durch Klickertraining zu trainieren. Das Projekt dient mir gleichzeitig dazu, meine Fähigkeiten in modernen Frontend-Technologien wie Vue 3 (Composition API) und State-Management-Lösungen zu vertiefen.
 
-### Technologie-Stack
- **Frontend:** Vue 3 mit Composition API, Vuex für das State-Management
- **Styling:** TailwindCSS vielleicht
- **Speicherung:** LocalStorage oder IndexedDB
+### Geplanter Technologie-Stack
+
+*   **Frontend-Framework:** Vue 3 (Composition API)
+*   **State Management:** Vuex
+*   **Styling:** TailwindCSS
+*   **Lokale Speicherung:** IndexedDB oder LocalStorage
 
 ### Features
 1. **Virtueller Klicker**
@@ -27,4 +29,8 @@ Diese App hilft Katzenbesitzern, ihre Katzen spielerisch und effektiv durch Klic
     Speicherung des Trainingsverlaufs im LocalStorage oder IndexedDB
     Möglichkeit, Trainingsdaten zu exportieren oder zurückzusetzen
 
-### Vuex Store für das State Management
+4. ### Aktueller Projektstatus
+
+*   **✅ Konzept & User-Flows:** Definiert
+*   **✅ UI/UX-Design (Figma):** Abgeschlossen
+*   **▶️ Nächste Schritte:** Technische Umsetzung des Frontends und der Features.
