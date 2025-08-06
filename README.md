@@ -3,11 +3,8 @@
 ### Design
 ![Design der App](https://github.com/Vhreya/KatzenKlickerApp/blob/master/KatzenKlickerDesign.png?raw=true)
 
-### Ziel des Projekts
-Das Projekt soll mir helfen zu üben und mich mit bestimmten Technologien auseinanderzusetzen.
-
-### Ziel der App
-Diese App hilft Katzenbesitzern, ihre Katze durch Klickertraining zu trainieren. Die Anwendung bietet: - Einen virtuellen Klicker - Schrittweise Anleitungen für Übungen - Fortschrittsverfolgung (lokal im Browser gespeichert)
+### Projektziel & Nutzen
+Diese App hilft Katzenbesitzern, ihre Katzen spielerisch und effektiv durch Klickertraining zu trainieren. Das Projekt dient mir gleichzeitig dazu, meine Fähigkeiten in modernen Frontend-Technologien wie Vue 3 (Composition API) und State-Management-Lösungen zu vertiefen.
 
 ### Technologie-Stack
  **Frontend:** Vue 3 mit Composition API, Vuex für das State-Management
